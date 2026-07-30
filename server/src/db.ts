@@ -14,7 +14,7 @@ if (!fs.existsSync(dbDir)) {
 }
 
 import type { Database } from 'better-sqlite3';
-export const db: Database = new Database(dbPath);
+export const db: Database.Database = new Database('path/to.db');
 
 db.pragma('journal_mode = WAL');
 db.pragma('foreign_keys = ON');
