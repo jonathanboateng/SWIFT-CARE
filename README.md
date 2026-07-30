@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Health Triage — Malaria & Fever (Hackathon)
 
 WHO-aligned, **offline-first** web app for community malaria and fever triage. Supports **English, Twi, French, and Spanish**. When malaria is detected as **positive**, the system sends a **privacy-preserving alert** to a pharmacist or doctor.
@@ -188,3 +189,7 @@ See `server/.env.example` for full list.
 ## License
 
 MIT — hackathon use.
+=======
+# SWIFT-CARE
+A health triage  system to help local communities in Ghana access early health care.
+>>>>>>> 7420bba20dd457d0b67a9da331a5d3e72b5e483b
