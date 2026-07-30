@@ -13,8 +13,8 @@ if (!fs.existsSync(dbDir)) {
   fs.mkdirSync(dbDir, { recursive: true });
 }
 
-import type { Database } from 'better-sqlite3';
-export const db: Database.Database = new Database('path/to.db');
+
+export const db: Database.Database = new Database(dbPath);
 
 db.pragma('journal_mode = WAL');
 db.pragma('foreign_keys = ON');
